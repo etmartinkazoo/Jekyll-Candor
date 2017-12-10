@@ -7,7 +7,6 @@ description: > # this means to ignore newlines until "baseurl:"
 twitter_username: theokazoo
 github_username: etmartinkazoo
 # Build settings
-url: https://etmartinkazoo.github.io/Jekyll-Candor/
 permalink: pretty
 # SASS directory
 sass:
