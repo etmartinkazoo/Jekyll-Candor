@@ -12,6 +12,10 @@ permalink: blog
         <p>{{ post.author }} | {{ post.date | date: "%B %d, %Y" }} | {{ post.categories | join: " "}}</p>
       </div>
       {{ post.excerpt }}
+      <div class="reel-footer">
+        <a href="{{ post.url }}"><button type="button" name="button" class="read-more-button">Read More</button></a>
+      </div>
+      <hr>
     </li>
   {% endfor %}
 </ul>
