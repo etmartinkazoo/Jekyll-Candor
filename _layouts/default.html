@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+    {% include navigation.html %}
+    <div class="container-small body-content">
+      <h2>{{ page.title }}</h2>
+
+        {{ content }}
+
+    </div>
+
+    {% include footer.html %}
+
+    <script defer src="/assets/javascript/fontawesome-all.min.js"></script>
+
+  </body>
+
+</html>

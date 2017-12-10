@@ -1,0 +1,78 @@
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.body-content {
+  flex: 1 0 auto;
+}
+
+h2 {
+  color: $color-primary;
+}
+
+p {
+  line-height: 1.8;
+}
+
+a {
+  color: $color-primary;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1165px) {
+  .container {
+    padding: 0 25px;
+  }
+}
+
+.container-full {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-small {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 625px) {
+  .container-small p,
+  .container-small h2,
+  .container-small h3 {
+    padding: 0 25px;
+  }
+}
+
+.body-content {
+  padding: 75px 0;
+}
+
+.post-meta {
+  p {
+    color: #999;
+  }
+}
+
+.blog-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer {
+  background-color: $color-offwhite;
+  padding: 25px;
+  p {
+    text-align: center;
+  }
+}
