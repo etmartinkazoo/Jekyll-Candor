@@ -6,8 +6,6 @@ description: > # this means to ignore newlines until "baseurl:"
   A Jekyll theme for semantic HTML, CSS, and JavaScript. Developers seeking clean, semantic HTML, framework free CSS - use of CSS Grid is encouraged - and vanilla JavaScript.
 twitter_username: theokazoo
 github_username: etmartinkazoo
-baseurl: ""
-
 # Build settings
 # SASS directory
 sass:
