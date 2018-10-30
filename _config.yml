@@ -3,11 +3,11 @@ title: Jekyll Candor
 author: Ted Martin
 email: etmartinkazoo
 description: > # this means to ignore newlines until "baseurl:"
-  A Jekyll theme for semantic HTML, CSS, and JavaScript. Developers seeking clean, semantic HTML, framework free CSS - use of CSS Grid is encouraged - and vanilla JavaScript.
+  A Jekyll theme for semantic HTML, CSS, and JavaScript. Developers seeking clean, semantic HTML, framework free CSS, and vanilla JavaScript.
 twitter_username: theokazoo
 github_username: etmartinkazoo
 # Build settings
-url: scratchcoded.com
+url:
 permalink: pretty
 # SASS directory
 sass:
