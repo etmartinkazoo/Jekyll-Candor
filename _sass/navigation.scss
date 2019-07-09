@@ -1,30 +1,7 @@
 nav {
   border-top: 5px solid $color-tertiary;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  .container {
-  display: grid;
-  grid-template-columns: 1fr 5fr;
-  max-width: 1140px;
-  margin: 0 auto;
-  .nav-logo a {
-    text-decoration: none;
+  svg {
+    color: #999;
   }
-    ul {
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      list-style: none;
-      a {
-        display: inline-block;
-        margin-right: 25px;
-        text-decoration: none;
-        svg {
-          color: #999;
-        }
-      }
-      a:last-of-type {
-        margin-right: 0;
-      }
-    }
-}
 }

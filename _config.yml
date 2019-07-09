@@ -1,9 +1,9 @@
 # General Information
 title: Jekyll Candor
 author: Ted Martin
-email: etmartinkazoo
+email: etmartinkazoo@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  A Jekyll theme for semantic HTML, CSS, and JavaScript. Developers seeking clean, semantic HTML, framework free CSS, and vanilla JavaScript.
+  A Jekyll theme with Bootstrap 4. Includes Animate.css, Font Awesome 5, Owl Carousel, and other goodies.
 twitter_username: theokazoo
 github_username: etmartinkazoo
 # Build settings

@@ -1,0 +1,14 @@
+- nav-item: Home
+  nav-link: /
+- nav-item: Blog
+  nav-link: /blog
+- nav-item: About
+  nav-link: /about
+- nav-item: <i class="fas fa-envelope-open"></i>
+  nav-link: mailto:#
+- nav-item: <i class="fab fa-github"></i>
+  nav-link: https://github.com/#
+- nav-item: <i class="fab fa-linkedin"></i>
+  nav-link: https://linkedin.com/#
+- nav-item: <i class="fab fa-twitter"></i>
+  nav-link: https://twitter.com/#

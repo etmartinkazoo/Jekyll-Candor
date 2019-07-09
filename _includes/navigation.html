@@ -1,16 +1,18 @@
-<nav>
+<nav class="navbar navbar-expand-lg navbar-light">
   <div class="container">
-    <div class="nav-logo">
-      <a href="/"><h2>Jekyll Candor</h2></a>
+    <a class="navbar-brand" href="/">Jekyll Candor</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        {% for nav-items in site.data.nav %}
+          <li class="nav-item active">
+            <a class="nav-link" href="{{ nav-items.nav-link }}">{{ nav-items.nav-item }}</a>
+          </li>
+        {% endfor %}
+      </ul>
     </div>
-    <ul class="nav-menu">
-      <a href="/"><li>Home</li></a>
-      <a href="/blog"><li>Blog</li></a>
-      <a href="/about"><li>About</li></a>
-      <a href="mailto:etmartinkazoo@mgail.com"><i class="fas fa-envelope-open"></i></a>
-      <a href="https://github.com/etmartinkazoo"><i class="fab fa-github"></i></a>
-      <a href="https://linkedin.com/etmartinkazoo"><i class="fab fa-linkedin"></i></a>
-      <a href="https://twitter.com/theokazoo"><i class="fab fa-twitter"></i></a>
-    </ul>
   </div>
 </nav>

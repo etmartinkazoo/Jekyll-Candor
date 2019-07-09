@@ -5,16 +5,20 @@
 
   <body>
     {% include navigation.html %}
-    <div class="container-small body-content">
-      <h2>{{ page.title }}</h2>
+    {% if page.title == "Home" %}
+      {% include banners/home.html %}
+    {% endif %}
 
-        {{ content }}
-
+    <div class="container body-content py-5">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <h2 class="font-weight-bold">{{ page.title }}</h2>
+          {{ content }}
+        </div>
+      </div>
     </div>
 
     {% include footer.html %}
-
-    <script defer src="/assets/javascript/fontawesome-all.min.js"></script>
 
   </body>
 

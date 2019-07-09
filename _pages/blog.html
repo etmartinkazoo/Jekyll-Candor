@@ -7,7 +7,7 @@ permalink: blog
 <ul class="blog-list">
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+      <a href="{{ post.url }}" class="text-decoration-none"><h3>{{ post.title }}</h3></a>
       <div class="post-meta">
         <p>{{ post.author }} | {{ post.date | date: "%B %d, %Y" }} | {{ post.categories | join: " "}}</p>
       </div>

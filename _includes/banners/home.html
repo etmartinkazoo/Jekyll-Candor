@@ -1,0 +1,5 @@
+<div class="owl-carousel owl-theme home-banner">
+  {% for banner-images in site.data.banners.home %}
+    <img src="{{ banner-images.banner-image }}" alt="{{ banner-images.banner-alt }}">
+  {% endfor %}
+</div>
